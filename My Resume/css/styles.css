@@ -1,38 +1,38 @@
-body{
+body {
   margin: 0;
   background-color: #e0ebe8;
   text-align: center;
 }
 
-
 /*  Navigation Bar Design    */
-
-.top-container{
+.top-container {
   height: 7rem;
   background-color: #e0ebe8;
   width: auto;
-  display:flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.avatar{
+.avatar {
   padding-top: 3%;
   position: relative;
   left: 20%;
 }
 
-#avatar-image{
+#avatar-image {
   width: 80px;
   border-radius: 50%;
 }
 
-#nav-items{
+#nav-items {
   padding-top: 2%;
   margin-top: 0;
   position: absolute;
   right: 10%;
 }
 
-li{
+li {
   list-style: none;
   display: inline-block;
   font-size: 1.5rem;
@@ -42,17 +42,17 @@ li{
 }
 
 /*  Heading Design    */
-
-.main-header{
+.main-header {
   padding-top: 3%;
   font-size: 6rem;
   color: #1fab89;
   font-family: 'Tangerine', cursive;
 }
 
-#head-details{
+#head-details {
   font-size: 2rem;
   margin-top: 20px;
   color: #1fab89;
   font-family: 'Podkova', serif;
 }
+/*# sourceMappingURL=styles.css.map */
