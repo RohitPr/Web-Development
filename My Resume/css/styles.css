@@ -1,11 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 :root {
-  --primary-color: #007AF3;
+  --primary-color: #ffc478;
 }
 
 body {
-  background-color: #bbdfc8;
+  background-color: #d7fbe8;
   margin: 0;
   font-family: 'Poppins';
+  overflow-x: hidden;
+  text-align: center;
+  max-width: 80%;
+}
+
+.container {
+  display: flexbox;
+  place-content: space-between;
+}
+
+.navbar {
+  width: 100%;
+  height: 5em;
+  position: fixed;
+}
+
+.navbar .logo {
+  position: absolute;
+  left: 1.2em;
+  color: black;
+  margin-top: 0.8em;
+  padding: 0 10px;
+  font-size: 1.5em;
+}
+
+.navbar .logo span {
+  color: #11614d;
+}
+
+.navbar ul {
+  margin-top: 1.3em;
+  position: absolute;
+  right: 2em;
+  display: flexbox;
+}
+
+.navbar ul li {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  color: #04221a;
+  cursor: pointer;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.header {
+  padding-top: 8em;
+}
+
+.header h1 {
+  font-family: 'Handlee', cursive;
+  font-size: 3em;
+  display: inline-block;
+}
+
+.header p {
+  margin-top: -1em;
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=styles.css.map */
